@@ -21,7 +21,7 @@ $(window).on("load", function() {
         $('#pagepiling').pagepiling({
             direction: 'vertical',
             sectionsColor: ['#171717', '#171717', '#171717', '#171717', '#171717', '#171717'],
-            anchors: ['home', 'about', 'timeline', 'portfolio', 'projects', 'contact'],
+            anchors: ['home', 'about', 'timeline', 'portfolio', 'contact'],
             scrollingSpeed: 500,
             easing: 'linear',
             loopBottom: false,
@@ -30,7 +30,7 @@ $(window).on("load", function() {
             navigation: {
                 'bulletsColor': '#535353',
                 'position': 'right',
-                'tooltips': ['Home', 'About', 'Career Timeline', 'Portfolio', 'Projects', 'Contact'],
+                'tooltips': ['Home', 'About', 'Career', 'Portfolio', 'Contact'],
             },
             //events
             onLeave: function(index, nextIndex, direction) {
